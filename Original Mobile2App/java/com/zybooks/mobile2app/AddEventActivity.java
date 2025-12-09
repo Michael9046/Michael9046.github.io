@@ -18,7 +18,6 @@ public class AddEventActivity extends AppCompatActivity {
     private EditText titleField, dateField, timeField, notesField;
     private DatabaseHelper dbHelper;
     private int userId;
-    private android.widget.RadioGroup radioGroupType;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +30,6 @@ public class AddEventActivity extends AppCompatActivity {
         timeField = findViewById(R.id.eventTime);
         notesField = findViewById(R.id.eventNotes);
         //Enhancement 1 Type Field
-        radioGroupType = findViewById(R.id.radioGroupType);
         Button saveButton = findViewById(R.id.saveEventButton);
 
         dbHelper = new DatabaseHelper(this);
@@ -55,20 +53,7 @@ public class AddEventActivity extends AppCompatActivity {
             return;
         }
 
-        //Enhancement 1 Sets Event Type when saving/defaults to Misc if none selected
-        int selectedId = radioGroupType.getCheckedRadioButtonId();
-        String eventType;
-
-        if (selectedId = R.id.radioBusiness) {
-            eventType = "Business";
-        }
-        else if (selectedId = R.id.radioPersonal) {
-            eventType = "Personal";
-        }
-        else {
-            eventType = "Misc";
-        }
-
+        //Enhancement 1 Set Event Type when saving/defaults to Misc if none selected
 
 
         String fullDate = date;
@@ -81,7 +66,6 @@ public class AddEventActivity extends AppCompatActivity {
             values.put(DatabaseHelper.COL_EVENT_TITLE, title);
             values.put(DatabaseHelper.COL_EVENT_DATE, fullDate);
             values.put(DatabaseHelper.COL_EVENT_USER_ID, userId);
-            values.put(DatabaseHelper.COL_EVENT_TYPE, eventType);
 
             long result;
             try {
