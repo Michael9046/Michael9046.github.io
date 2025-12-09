@@ -7,7 +7,7 @@ title: "Michael Hymel — CS 499 Capstone ePortfolio"
 
 <p>
   The project presented in this portfolio demonstrates my ability to solve complex problems and implement
-additional features within an existing application. Taking an existing project and enhancing it through critical thinking and using outside resources like Android's development page and community resources.  Each enhancement of my original project 
+additional features within an existing application. By taking an existing project of mine and enhancing it through critical thinking and using outside resources like Android's development page and community resources.  Each enhancement is showcasing my abilities in Software design and engineering, working with algorithms and data structures, and managing databases.
 </p>
 
 <p>
@@ -21,17 +21,17 @@ This application is an Event Tracking Application.
   - an interactive calendar and floating action button to add events.
   - simple UI design.
 
-  These events are saved to a SQLite database using local storage and are viewable when selecting
+  These events are saved to a SQLite database using local storage and were only viewable when selecting
   the date they were scheduled.
 
-  My work on the following enhancements drew from early coding lessons from
+  My work on the following enhancements drew from early coding and database courses from
 my Computer Science program, including basic Java syntax, database management and querying, and working
 with Android Studio. While I did not address all security concerns within the application, I documented them to show my ability to think with a security mindset.  </p>
 
 <p>
-Below are links to my initial code review video before enhancements and brief narratives of each enhancement.  
+Below are links to my initial code review video before enhancements and brief narratives of each enhancement.
 
-A link to the Full Source Code is also available in my Repo under Mobile2App.
+A link to the original and enhanced Source Code is also available.
 </p>
 
 ---
