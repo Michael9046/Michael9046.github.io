@@ -73,6 +73,6 @@ This works together with the xml layout created for the Event Form.
 ---
 
 ### Next Page  
-➡️ [Go to Enhancement 2 — Creating a Search Function](enhancement2.md)
+-> [Go to Enhancement 2 — Creating a Search Function](enhancement2.md)
 
 
