@@ -62,5 +62,9 @@ This works together with the xml layout created for the Event Form.
             eventType = "Misc";
         }
 ```
+  The user views is now a complete Event Form with 
+  color coded radio buttons for each type of event
+
+  <img src="/assets/images/Event form.png" alt="Event Form Final" width="70%">
 
 
