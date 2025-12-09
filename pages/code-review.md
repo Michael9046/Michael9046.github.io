@@ -11,7 +11,7 @@ title: "Code Review"
   
 <div style="text-align:center">
   <iframe width="560" height="315"
-    src="https://youtu.be/9BUakVjXWyU"
+    src="https://www.youtube.com/watch?v=9BUakVjXWyU"
     title="Code Review Video"
     frameborder="0"
     allowfullscreen>
