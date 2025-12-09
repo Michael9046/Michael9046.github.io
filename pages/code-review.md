@@ -19,11 +19,15 @@ I had already chosen what enhancements I was planning on doing already and was a
     allowfullscreen>
   </iframe>
 </div>
+
 ---
+
 Upon start up the users are prompted to log in or register.  Once checked or added to the database they are greeted by the Calendar View which serves as the main view of the application.
 
-
-
+<p align="center">
+  <img src="/assets/images/Login view.png" alt="Login" width="70%">
+  <img src="/assets/images/Calendar view.png" alt="Calendar" width="70%">
+</p>
 
 ---
 
