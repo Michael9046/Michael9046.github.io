@@ -3,8 +3,6 @@ layout: default
 title: "Michael Hymel — CS 499 Capstone ePortfolio"
 ---
 
-# Michael Hymel — CS 499 Capstone ePortfolio
-
 ## Self Assessment
 
 <p>
