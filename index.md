@@ -13,6 +13,7 @@ additional features within an existing application. By taking an existing projec
 <p>
 I chose to enhance a previous Android Mobile Application I created in my CS 360 class in 2024.
 This application is an Event Tracking Application.
+</p>
 
   Once I completed the course the application only featured:
   - a sign-in page for returning users. 
@@ -20,13 +21,16 @@ This application is an Event Tracking Application.
   - a database to store users and their events.
   - an interactive calendar and floating action button to add events.
   - simple UI design.
-
+<p>
   These events are saved to a SQLite database using local storage and were only viewable when selecting
   the date they were scheduled.
+</p>
 
+<p>
   My work on the following enhancements drew from early coding and database courses from
 my Computer Science program, including basic Java syntax, database management and querying, and working
-with Android Studio. While I did not address all security concerns within the application, I documented them to show my ability to think with a security mindset.  </p>
+with Android Studio. While I did not address all security concerns within the application, I documented them to show my ability to think with a security mindset.  
+</p>
 
 <p>
 Below are links to my initial code review video before enhancements and brief narratives of each enhancement.
