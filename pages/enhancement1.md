@@ -70,4 +70,9 @@ This works together with the xml layout created for the Event Form.
   <img src="/assets/images/Event form.png" alt="Event Form Final" width="70%">
 </p>
 
+---
+
+### Next Page  
+➡️ [Go to Enhancement 2 — Creating a Search Function](enhancement2.md)
+
 
