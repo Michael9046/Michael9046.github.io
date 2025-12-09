@@ -5,12 +5,12 @@ title: Enhancement 1
 
 ## Narrative
   The intent of this Enhancement was to show my ability and skill in Software Engineering & Design.
-I believe I met the outcomes I planned on for this enhancement.  I was able to add a Type field to the Event’s table in the database.  This is paired with the Event’s Title, Time, Date, and any relevant Notes.  I also added and color coded the radio buttons where the user selects the types when creating an event.  I also added a feature to account for no selection being made.  The radio buttons were introduced to me in my CS 360 class.  A quick study on Android design features helped me implement them.  I am still not sure if I should (or how to implement) color code the events in the EventsLayout section on the CalendarView page.  I may revisit it later when I come back to this project.
+I believe I met the outcomes I planned on for this enhancement.  I was able to add a Type field to the Event’s table in the database.  This is paired with the Event’s Title, Time, Date, and any relevant Notes.  I also added and color coded the radio buttons where the user selects the types when creating an event.  I also added a feature to account for no selection being made.  The radio buttons were introduced to me in my CS 360 class.  A quick study on Android design features helped me implement them.  
 
-Edits in the source code for this Enhancement are found in AddEventActivity.Java, Databasehelper.java, and activity_event_form.xml
+I am still not sure how to implement these colors in the EventsLayout section on the CalendarView page when an event is displayed.  I may revisit it later when I come back to this project.
 
-  This enhancement was pretty straight forward.  I added the Event Type Field to my already existing database
-  and I updated the associated xml file.  Keeping the original design and working within those constraints.  
+Edits in the source code for this Enhancement are found in Mobile2App Final under AddEventActivity.Java, Databasehelper.java, and activity_event_form.xml
+ 
  
 ```java
 // Creates tables for User Credentials and for events.
