@@ -1,14 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
+---
+layout: default
+title: "Michael Hymel — CS 499 ePortfolio"
+---
     <title>Michael Hymel — CS 499 ePortfolio</title>
     <style>
         body { font-family: Arial; margin: 40px; }
         h1 { color: #444; }
         a { display:block; margin: 10px 0; font-size: 18px; }
     </style>
-</head>
-<body>
+
 
 <h1>Michael Hymel — CS 499 ePortfolio</h1>
     <h2> **Self Assesment** </h2>
@@ -42,5 +42,3 @@ Below are my enhancements to this project as well as any narratives, and my init
 <h2>Professional Self-Assessment</h2>
 
 
-</body>
-</html>
