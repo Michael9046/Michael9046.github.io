@@ -24,7 +24,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String COL_EVENT_ID = "id";
     public static final String COL_EVENT_TITLE = "title";
     public static final String COL_EVENT_DATE = "date";
-    public static final String COL_EVENT_TYPE = "type";
     public static final String COL_EVENT_USER_ID = "user_id";
 
     public DatabaseHelper(Context context) {
@@ -43,8 +42,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 COL_EVENT_ID + " integer primary key autoincrement, " +
                 COL_EVENT_TITLE + " text, " +
                 COL_EVENT_DATE + " text, " +
-                // Created TYPE Column for Enhancement 1
-                COL_EVENT_TYPE + " text, " +
+                // Create TYPE Column for Enhancement 1
                 COL_EVENT_USER_ID + " integer, " +
                 "foreign key(" + COL_EVENT_USER_ID + ") references " + TABLE_USERS + "(" + COL_USER_ID + "))";
 
