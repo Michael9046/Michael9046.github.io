@@ -41,40 +41,7 @@ android:padding="16dp">
     app:layout_constraintEnd_toEndOf="parent"
     android:layout_marginTop="16dp" />
 
-    <!-- Enhancement 1 added Type field using radio buttons form -->
-    <RadioGroup
-        android:id="@+id/radioGroupType"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/eventTime"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/radioBusiness"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Business"
-            android:textColor="@color/Business_color" />
-
-        <RadioButton
-            android:id="@+id/radioPersonal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Personal"
-            android:textColor="@color/Personal_color" />
-
-        <RadioButton
-            android:id="@+id/radioMisc"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Misc"
-            android:textColor="@color/Misc_color" />
-
-    </RadioGroup>
-
-
+    <!-- Enhancement 1 add Type field using radio buttons form -->
 
     <EditText
     android:id="@+id/eventNotes"
@@ -84,7 +51,7 @@ android:padding="16dp">
     android:minLines="3"
     android:gravity="top"
     android:inputType="textMultiLine"
-    app:layout_constraintTop_toBottomOf="@id/radioGroupType"
+    app:layout_constraintTop_toBottomOf="@id/eventTime"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     android:layout_marginTop="16dp" />
